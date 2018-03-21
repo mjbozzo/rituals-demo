@@ -1,0 +1,24 @@
+.confirmation-screen {
+    height: 120vh;
+    background-color: #efefef;
+}
+
+.confirmation-screen .add-to-calendar {
+    background-color: white;
+    padding: 4%;
+    margin-bottom: 5%;
+}
+
+.confirmation-screen .add-to-calendar .icon {
+    float: right;
+}
+
+/* iPhone X media query */
+@media only screen 
+and (device-width : 375px) 
+and (device-height : 812px) 
+and (-webkit-device-pixel-ratio : 3) {
+    .confirmation-screen {
+        height: 100vh;
+    }
+}

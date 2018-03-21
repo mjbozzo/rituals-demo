@@ -1,0 +1,18 @@
+.rituals-button {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 50%;
+   	padding: 4%;
+}
+
+.rituals-button .cancel {
+    color: black;
+    background-color: white; 
+}
+
+.rituals-button .submit {
+    color: white;
+    background-color: green;
+}

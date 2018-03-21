@@ -1,0 +1,56 @@
+.we-header {
+    color: white;
+    background-color: #1f2122;
+    padding: 11%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: 1px 1px gray;
+}
+
+.we-header .main-title {
+    padding: 6% 4%;
+    font-family: 'proxima-nova-medium';
+}
+
+.we-header .main-address {
+    font-family: 'proxima-nova-medium';
+}
+
+.we-header .icon {
+    position: absolute;
+    left: 5vw;
+}
+
+.we-header .icon.back {
+    background-image: url('../images/back-icon.png');
+    background-size: contain;
+    top: 7.5vh;
+    height: 5vh;
+    width: 5vh;
+}
+
+.we-header .icon.close {
+    background-image: url('../images/close-icon.png');
+    background-size: contain;
+    top: 5vh;
+    height: 3vh;
+    width: 3vh;
+}
+
+.we-header .reservation-cost {
+    font-family: 'apercu-medium-pro';
+}
+
+.we-header .reservation-cost .title {
+    padding-bottom: 3%;
+}
+
+.we-header .reservation-cost .credits {
+    color: #d6c34b;
+    font-family: 'proxima-nova-extra-bold';
+    font-size: 1.5rem;
+    text-shadow: 1px 1px black;
+}
